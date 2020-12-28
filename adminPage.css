@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.header{
+    padding: 5px;
+
+}
+
+.clogo
+{
+    text-align: center;
+    margin:0 1px;
+}
+.userandtime,.logoutbtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.logoutbtn
+{
+    padding: 5px;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  nav .menulist {
+    list-style-type: none;
+  
+  }
+  .menulist .categories {
+  padding-top:10px;
+  
+  }
+  
+  .categories a {
+  text-decoration:none;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #fff;
+  }
+  .categorieslist {
+      display: flex;
+      list-style-type: none;
+      width: 100%;
+  }
+  .categorieslist .subcategories {
+      padding-right : 50px;
+  }
+
+  .subcategories a {
+      text-decoration: none;
+  }
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+
+  
